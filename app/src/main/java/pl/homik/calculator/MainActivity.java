@@ -15,11 +15,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private double b = 2.0;
 
 
-    TextView display;
+    private TextView display;
 
-    EditText leftText, rightText;
+    private EditText leftText;
+    private EditText rightText;
 
-    Button additionButton, subtractionButton, multiplicationButton, divisionButton, resultButton;
+    private Button additionButton;
+    private Button subtractionButton;
+    private Button multiplicationButton;
+    private Button divisionButton;
+    private Button resultButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
