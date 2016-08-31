@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="displayedTxt">display</string>
+    <string name="startingDisplay">0</string>
+    <string name="additionDisplay">+</string>
+    <string name="subtractionDisplay">-</string>
+    <string name="multiplicationDisplay">*</string>
+    <string name="divisionDisplay">/</string>
+    <string name="scoreDisplay">=</string>
+    <string name="worningMessage">"Sorry, the technology just isn't there yet"</string>
+
+</resources>

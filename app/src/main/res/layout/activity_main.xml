@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pl.homik.calculator.MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/displayedTxt"
+        android:id="@+id/display"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startingDisplay"
+        android:id="@+id/leftText"
+        android:layout_below="@+id/display"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startingDisplay"
+        android:id="@+id/rightText"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/display"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/additionDisplay"
+        android:id="@+id/additionButton"
+        android:layout_below="@+id/leftText"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtractionDisplay"
+        android:id="@+id/subtractButton"
+        android:layout_below="@+id/additionButton"
+        android:layout_alignEnd="@+id/additionButton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/multiplicationDisplay"
+        android:id="@+id/multiplicationButton"
+        android:layout_below="@+id/subtractButton"
+        android:layout_alignEnd="@+id/subtractButton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/divisionDisplay"
+        android:id="@+id/divisionButton"
+        android:layout_below="@+id/multiplicationButton"
+        android:layout_alignEnd="@+id/multiplicationButton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scoreDisplay"
+        android:id="@+id/resultButton"
+        android:layout_below="@+id/divisionButton"
+        android:layout_alignEnd="@+id/divisionButton"
+        />
+
+
+
+
+</RelativeLayout>
